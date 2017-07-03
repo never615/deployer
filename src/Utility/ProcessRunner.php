@@ -24,7 +24,7 @@ class ProcessRunner
     public function run($hostname, string $command, array $config = [])
     {
         $defaults = [
-            'timeout' => 300,
+            'timeout' => 900,
             'tty' => false,
         ];
         $config = array_merge($defaults, $config);
